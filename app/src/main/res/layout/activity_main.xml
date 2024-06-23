@@ -10,7 +10,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/whatsapp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?actionBarSize"
         app:title="Whatsapp"
         app:titleTextColor="@color/white"
         android:background="#00796B"/>
@@ -18,6 +18,8 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
+        app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/white"
         android:layout_height="wrap_content"
         android:background="#00796B"/>
 

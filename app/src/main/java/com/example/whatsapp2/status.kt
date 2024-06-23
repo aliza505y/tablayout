@@ -17,7 +17,7 @@ class status : Fragment(){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view=inflater.inflate(R.layout.fragment_calls , container,false)
+        val view=inflater.inflate(R.layout.fragment_status , container,false)
         val statusRV= view.findViewById<RecyclerView>(R.id.recyclerView3)
         val status2Rv = view.findViewById<RecyclerView>(R.id.recyclerView4)
 
@@ -41,9 +41,9 @@ class status : Fragment(){
         product.add(statusDataClass(R.drawable.swat6,"Adiba shakeel","11:15AM"))
         product.add(statusDataClass(R.drawable.swat6,"Adiba shakeel","11:15AM"))
 
-//        val adapter1=statusadapter(product , requireContext())
-//        statusRV.adapter=adapter1
-//        statusRV.layoutManager=LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
+        val adapter1=statusadapter(product , requireContext())
+        statusRV.adapter=adapter1
+        statusRV.layoutManager=LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
 
         val adapter =statusadapter(product , requireContext())
         status2Rv.layoutManager=LinearLayoutManager(requireContext())

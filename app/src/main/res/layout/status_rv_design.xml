@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageview4"
+        android:id="@+id/statusProfileImg"
         android:layout_width="69dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -16,23 +16,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textview7"
+        android:id="@+id/statusTimeTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10:58AM"
         android:layout_marginTop="5dp"
-        app:layout_constraintStart_toStartOf="@+id/textview6"
-        app:layout_constraintTop_toBottomOf="@+id/textview6" />
+        app:layout_constraintStart_toStartOf="@+id/statusNameTv"
+        app:layout_constraintTop_toBottomOf="@+id/statusNameTv" />
 
     <TextView
-        android:id="@+id/textview6"
+        android:id="@+id/statusNameTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="20dp"
         android:text="Adiba Shakeel"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageview4"
+        app:layout_constraintStart_toEndOf="@+id/statusProfileImg"
         app:layout_constraintTop_toTopOf="parent" />
 
 

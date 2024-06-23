@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageview3"
+        android:id="@+id/profileIMG"
         android:layout_width="69dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -16,27 +16,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/nameTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="25dp"
         android:text="Madiha Iqbal"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageview3"
+        app:layout_constraintStart_toEndOf="@+id/profileIMG"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textview4"
+        android:id="@+id/messageTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="How are you?"
         android:layout_marginStart="15dp"
-        app:layout_constraintStart_toEndOf="@+id/imageview3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toEndOf="@+id/profileIMG"
+        app:layout_constraintTop_toBottomOf="@+id/nameTv" />
 
     <TextView
-        android:id="@+id/textview5"
+        android:id="@+id/timeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
